@@ -1,47 +1,63 @@
-let cartQuantity = 0;
+let cartQuantity = 0
 
 function showCartQuantity() {
-  console.log(`Cart quantity: ${cartQuantity}`);
+  console.log(`Cart quantity: ${cartQuantity}`)
 }
 
 function addToCart() {
-  cartQuantity++;
-  showCartQuantity();
+  cartQuantity++
+  showCartQuantity()
 }
 
 function addToCartBy2() {
-  cartQuantity += 2;
-  showCartQuantity();
+  cartQuantity += 2
+  showCartQuantity()
 }
 
 function addToCartBy3() {
-  cartQuantity += 3;
-  showCartQuantity();
+  cartQuantity += 3
+  showCartQuantity()
 }
 
 function addToCartBy4() {
-  cartQuantity += 4;
-  showCartQuantity();
+  cartQuantity += 4
+  showCartQuantity()
 }
 
-
 function addToCartBy5() {
-  cartQuantity += 5;
-  showCartQuantity();
+  cartQuantity += 5
+  showCartQuantity()
 }
 
 function substractBy2() {
-  cartQuantity -= 2;
-  showCartQuantity();
+  cartQuantity -= 2
+  showCartQuantity()
 }
 
 function substractBy3() {
-  cartQuantity -= 3;
-  showCartQuantity();
+  cartQuantity -= 3
+  showCartQuantity()
 }
 
 function resetCart() {
-  console.log('Cart was reset.'); 
-  cartQuantity = 0;
-  showCartQuantity();
+  console.log('Cart was reset.')
+  cartQuantity = 0
+  showCartQuantity()
 }
+
+function buyEverything() {
+  if (cartQuantity > 10) {
+    alert('You cannot buy more than 10 items')
+  } else if (cartQuantity <= 0) {
+    alert('You need to select items before buying')
+  } else {
+    alert('Thank you for your purchase!')
+  }
+}
+
+// let quantity =
+//   cartQuantity >= 10 || cartQuantity < 0
+//     ? 'The cart is full'
+//     : 'The cart is empty'
+
+// console.log(quantity)
