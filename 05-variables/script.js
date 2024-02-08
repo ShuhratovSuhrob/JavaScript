@@ -19,6 +19,27 @@ function addToCartBy3() {
   showCartQuantity();
 }
 
+function addToCartBy4() {
+  cartQuantity += 4;
+  showCartQuantity();
+}
+
+
+function addToCartBy5() {
+  cartQuantity += 5;
+  showCartQuantity();
+}
+
+function substractBy2() {
+  cartQuantity -= 2;
+  showCartQuantity();
+}
+
+function substractBy3() {
+  cartQuantity -= 3;
+  showCartQuantity();
+}
+
 function resetCart() {
   console.log('Cart was reset.'); 
   cartQuantity = 0;
