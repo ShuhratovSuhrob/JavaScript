@@ -54,10 +54,3 @@ function buyEverything() {
     alert('Thank you for your purchase!')
   }
 }
-
-// let quantity =
-//   cartQuantity >= 10 || cartQuantity < 0
-//     ? 'The cart is full'
-//     : 'The cart is empty'
-
-// console.log(quantity)
